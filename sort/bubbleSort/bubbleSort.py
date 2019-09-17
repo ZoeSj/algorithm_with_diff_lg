@@ -17,4 +17,8 @@ def bubbleSort(data):
     return data
 
 
-print(bubbleSort(data))
+if __name__ == '__main__':
+    alist = [5, 4, 26, 93, 7, 7, 44, 3, 1, 44, 55, 2, 0]
+    print("source list:%s" % alist)
+    bubbleSort(alist)
+    print("new list:%s" % alist)
